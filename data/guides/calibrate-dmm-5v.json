@@ -1,0 +1,33 @@
+{
+  "id": "calibrate-dmm-5v",
+  "title": "How to Calibrate a Digital Multimeter Using a 5.000 V DC Reference",
+  "type": "user",
+  "difficulty": "hard",
+  "time_minutes": 20,
+  "tools": [
+    "Digital multimeter (\u22654\u00bd digit, e.g., Fluke 87V)",
+    "5.000 V precision voltage reference (e.g., LM4040, \u00b10.1%)",
+    "Thermally stable environment (\u00b10.5\u00b0C)",
+    "Shielded test leads"
+  ],
+  "steps": [
+    "Allow DMM and voltage reference to warm up for 30 minutes in a \u00b10.5\u00b0C room.",
+    "Set DMM to DC voltage mode with 0.1 mV resolution.",
+    "Connect reference to DMM using shielded cables; minimize lead loop area.",
+    "Wait 10 seconds for reading to stabilize.",
+    "If DMM reads \u00b10.001 V from 5.000 V, note the offset.",
+    "If internal adjustment is possible, calibrate zero point and span using trimpots or service menu according to manufacturer specs.",
+    "Recheck: reading should now be within \u00b10.0005 V of 5.000 V (\u00b10.01%)."
+  ],
+  "tags": [
+    "electronics",
+    "measurement",
+    "instrumentation"
+  ],
+  "rating": {
+    "clarity": 4.9,
+    "accuracy": 5.0,
+    "votes": 30
+  },
+  "last_updated": "2025-05-31"
+}

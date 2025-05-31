@@ -1,0 +1,31 @@
+{
+  "id": "torque-m6-bolt",
+  "title": "How to Torque an M6 Stainless Bolt to 9.8 Nm Using a Beam Torque Wrench",
+  "type": "ai_draft",
+  "difficulty": "easy",
+  "time_minutes": 5,
+  "tools": [
+    "Beam torque wrench (0\u201320 Nm range, \u00b14% accuracy)",
+    "M6 stainless steel hex bolt",
+    "Hex socket (10 mm)"
+  ],
+  "steps": [
+    "Confirm wrench zero calibration on a flat surface.",
+    "Secure mating part or assembly in a vice to prevent rotation.",
+    "Insert M6 bolt with washer and thread in by hand until seated.",
+    "Set beam torque wrench to 9.8 Nm target mark (standard for M6 in steel).",
+    "Apply torque smoothly in clockwise direction until pointer aligns with 9.8 Nm.",
+    "Hold momentarily at peak torque, then release."
+  ],
+  "tags": [
+    "mechanical",
+    "assembly",
+    "fastening"
+  ],
+  "rating": {
+    "clarity": 4.7,
+    "accuracy": 4.8,
+    "votes": 42
+  },
+  "last_updated": "2025-05-31"
+}

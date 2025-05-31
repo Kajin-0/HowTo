@@ -1,0 +1,34 @@
+{
+  "id": "etch-silicon-boe",
+  "title": "How to Etch a Silicon Wafer Using Buffered Oxide Etch (BOE 6:1)",
+  "type": "user",
+  "difficulty": "medium",
+  "time_minutes": 15,
+  "tools": [
+    "Silicon wafer (100 mm, thermally oxidized)",
+    "BOE 6:1 solution (6 parts NH\u2084F : 1 part HF)",
+    "Teflon wafer holder",
+    "DI water rinse station",
+    "Nitrile gloves, face shield, apron"
+  ],
+  "steps": [
+    "Measure oxide thickness with ellipsometry or profilometer (baseline).",
+    "Pour 200 mL of BOE 6:1 into a HF-compatible etch bath (e.g., polypropylene).",
+    "Submerge wafer in the solution using a Teflon holder.",
+    "Etch time for 1000 \u00c5 oxide: 1.0\u20131.3 minutes at 25\u00b0C (etch rate ~800 \u00c5/min).",
+    "Agitate gently every 15 seconds to avoid bubble pinning.",
+    "Rinse wafer in DI water for 60 seconds in overflow bath.",
+    "Dry with N\u2082 gun at 30 psi. Re-measure oxide thickness to confirm removal."
+  ],
+  "tags": [
+    "semiconductor",
+    "etching",
+    "lab"
+  ],
+  "rating": {
+    "clarity": 4.8,
+    "accuracy": 4.9,
+    "votes": 55
+  },
+  "last_updated": "2025-05-31"
+}
