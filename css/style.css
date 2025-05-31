@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 1rem;
   color: #222;
+  line-height: 1.6;
 }
 .container {
   max-width: 800px;
@@ -39,6 +40,9 @@ input#search {
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
+.meta {
+  margin-bottom: 1rem;
+}
 ol li {
   margin-bottom: 1.2rem;
   font-size: 1.1rem;
@@ -66,7 +70,19 @@ ol li::marker {
   padding-left: 1rem;
   list-style-type: disc;
 }
-
 .tools-list li {
   margin-bottom: 0.4rem;
+}
+.tags {
+  margin-top: 0.5rem;
+}
+h2 {
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 2rem 0;
 }
