@@ -2,7 +2,28 @@
   {
     "id": "replace-laptop-battery",
     "title": "How to Replace a Laptop Battery",
-    "tags": ["laptop", "hardware"],
+    "tags": [
+      "laptop",
+      "hardware"
+    ],
     "type": "ai_draft"
+  },
+  {
+    "id": "fix-squeaky-door",
+    "title": "How to Fix a Squeaky Door",
+    "tags": [
+      "home",
+      "repair"
+    ],
+    "type": "ai_draft"
+  },
+  {
+    "id": "change-car-oil",
+    "title": "How to Change Car Oil",
+    "tags": [
+      "car",
+      "maintenance"
+    ],
+    "type": "user"
   }
 ]
