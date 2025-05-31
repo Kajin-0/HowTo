@@ -103,6 +103,13 @@ hr {
 .copy-btn:hover {
   background: #ddd;
 }
+.metric {
+  font-weight: 600;
+  font-family: monospace;
+  background: rgba(255, 255, 0, 0.2);
+  padding: 0.1em 0.3em;
+  border-radius: 4px;
+}
 @media (max-width: 600px) {
   input#search {
     font-size: 1rem;
