@@ -59,3 +59,14 @@ ol li::marker {
 .badge-blue { background-color: #1e88e5; }
 .badge-green { background-color: #43a047; }
 .badge-gray  { background-color: #9e9e9e; }
+
+.tools-list {
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+  list-style-type: disc;
+}
+
+.tools-list li {
+  margin-bottom: 0.4rem;
+}
