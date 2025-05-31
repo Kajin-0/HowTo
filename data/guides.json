@@ -25,5 +25,23 @@
       "maintenance"
     ],
     "type": "user"
+  },
+  {
+    "id": "how-to-boil-egg",
+    "title": "How to Boil an Egg",
+    "tags": [
+      "cooking",
+      "egg"
+    ],
+    "type": "ai_draft"
+  },
+  {
+    "id": "how-to-tie-tie",
+    "title": "How to Tie a Tie (Windsor Knot)",
+    "tags": [
+      "style",
+      "tie"
+    ],
+    "type": "ai_draft"
   }
 ]
