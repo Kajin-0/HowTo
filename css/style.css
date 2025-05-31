@@ -10,6 +10,7 @@ body {
   max-width: 800px;
   margin: 2rem auto;
   text-align: center;
+  padding: 0 1rem;
 }
 input#search {
   width: 100%;
@@ -19,6 +20,10 @@ input#search {
   margin: 1rem auto 2rem;
   border: 1px solid #ccc;
   border-radius: 6px;
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 10;
 }
 #results {
   list-style: none;
@@ -85,4 +90,28 @@ hr {
   border: none;
   border-top: 1px solid #ddd;
   margin: 2rem 0;
+}
+.copy-btn {
+  margin-top: 0.5rem;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.8rem;
+  border: none;
+  background: #eee;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.copy-btn:hover {
+  background: #ddd;
+}
+@media (max-width: 600px) {
+  input#search {
+    font-size: 1rem;
+    padding: 0.6rem;
+  }
+  .card, .container {
+    padding: 1rem;
+  }
+  ol li {
+    font-size: 1rem;
+  }
 }
