@@ -2,10 +2,37 @@
   {
     "id": "replace-laptop-battery",
     "title": "How to Replace a Laptop Battery",
+    "type": "Hardware",
+    "difficulty": "Medium",
+    "time_minutes": 20,
     "tags": [
       "laptop",
-      "hardware"
-    ],
-    "type": "ai_draft"
+      "battery",
+      "repair"
+    ]
+  },
+  {
+    "id": "fix-a-squeaky-door",
+    "title": "How to Fix a Squeaky Door",
+    "type": "Home",
+    "difficulty": "Easy",
+    "time_minutes": 5,
+    "tags": [
+      "door",
+      "home",
+      "squeak"
+    ]
+  },
+  {
+    "id": "change-car-oil",
+    "title": "How to Change Car Oil",
+    "type": "Auto",
+    "difficulty": "Medium",
+    "time_minutes": 30,
+    "tags": [
+      "car",
+      "maintenance",
+      "oil"
+    ]
   }
 ]
