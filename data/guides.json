@@ -1,38 +1,98 @@
 [
   {
-    "id": "replace-laptop-battery",
-    "title": "How to Replace a Laptop Battery",
-    "type": "Hardware",
-    "difficulty": "Medium",
+    "id": "calibrate-dmm-5v",
+    "title": "How to Calibrate a Digital Multimeter Using a 5.000 V DC Reference",
+    "type": "user",
+    "difficulty": "hard",
     "time_minutes": 20,
     "tags": [
-      "laptop",
-      "battery",
-      "repair"
-    ]
-  },
-  {
-    "id": "fix-a-squeaky-door",
-    "title": "How to Fix a Squeaky Door",
-    "type": "Home",
-    "difficulty": "Easy",
-    "time_minutes": 5,
-    "tags": [
-      "door",
-      "home",
-      "squeak"
+      "electronics",
+      "measurement",
+      "instrumentation"
     ]
   },
   {
     "id": "change-car-oil",
     "title": "How to Change Car Oil",
-    "type": "Auto",
-    "difficulty": "Medium",
-    "time_minutes": 30,
+    "type": "user",
+    "difficulty": "hard",
+    "time_minutes": 45,
     "tags": [
-      "car",
+      "automotive",
       "maintenance",
-      "oil"
+      "car"
+    ]
+  },
+  {
+    "id": "etch-silicon-boe",
+    "title": "How to Etch a Silicon Wafer Using Buffered Oxide Etch (BOE 6:1)",
+    "type": "user",
+    "difficulty": "medium",
+    "time_minutes": 15,
+    "tags": [
+      "semiconductor",
+      "etching",
+      "lab"
+    ]
+  },
+  {
+    "id": "fix-squeaky-door",
+    "title": "How to Fix a Squeaky Door",
+    "type": "ai_draft",
+    "difficulty": "easy",
+    "time_minutes": 10,
+    "tags": [
+      "home",
+      "repair",
+      "door"
+    ]
+  },
+  {
+    "id": "how-to-boil-egg",
+    "title": "How to Boil an Egg",
+    "type": "ai_draft",
+    "difficulty": "easy",
+    "time_minutes": 10,
+    "tags": [
+      "cooking",
+      "egg",
+      "kitchen"
+    ]
+  },
+  {
+    "id": "how-to-tie-tie",
+    "title": "How to Tie a Tie (Windsor Knot)",
+    "type": "ai_draft",
+    "difficulty": "medium",
+    "time_minutes": 5,
+    "tags": [
+      "style",
+      "clothing",
+      "tie"
+    ]
+  },
+  {
+    "id": "replace-laptop-battery",
+    "title": "How to Replace a Laptop Battery",
+    "type": "ai_draft",
+    "difficulty": "medium",
+    "time_minutes": 20,
+    "tags": [
+      "hardware",
+      "repair",
+      "laptop"
+    ]
+  },
+  {
+    "id": "torque-m6-bolt",
+    "title": "How to Torque an M6 Stainless Bolt to 9.8 Nm Using a Beam Torque Wrench",
+    "type": "ai_draft",
+    "difficulty": "easy",
+    "time_minutes": 5,
+    "tags": [
+      "mechanical",
+      "assembly",
+      "fastening"
     ]
   }
 ]
