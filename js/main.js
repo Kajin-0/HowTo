@@ -1,13 +1,16 @@
 fetch('data/guides.json')
   .then(res => res.json())
   .then(data => {
-    const fuse = new Fuse(data, { keys: ['title', 'tags'] });
+    const fuse = new Fuse(data, {
+      keys: ['title', 'tags'],
+      threshold: 0.4
+    });
     const input = document.getElementById('search');
     const resultsEl = document.getElementById('results');
     input.addEventListener('input', () => {
       const result = fuse.search(input.value);
       resultsEl.innerHTML = '';
-      result.slice(0, 10).forEach(r => {
+      (input.value.trim() === '' ? [] : result.slice(0, 10)).forEach(r => {
         const item = r.item;
         const li = document.createElement('li');
         li.innerHTML = `
@@ -22,4 +25,8 @@ fetch('data/guides.json')
         resultsEl.appendChild(li);
       });
     });
+  })
+  .catch(err => {
+    console.error("Error loading guides.json:", err);
+    document.getElementById('results').innerHTML = "<li style='color:red'>Failed to load guide list.</li>";
   });
