@@ -41,7 +41,8 @@ if (!id) {
 }
 
 function highlightMetrics(container) {
-  const regex = /\b(\d+(\.\d+)?(\s?-\s?\d+(\.\d+)?)?(\s*[/]?\s*)?(ms|s|sec|seconds?|min|minutes?|hr|hours?|°C|°F|K|nm|mm|cm|m|µm|um|angstrom|Å|kg|g|mg|µg|ug|mL|ml|L|Hz|kHz|MHz|GHz|Ω|Ohm|V|mV|A|mA|W|kW|N|Nm|psi|%|in|ft|°))\b/gi;
+  const regex = /(±|≥|≤)?(\d+(?:[.,]\d+)?(?:½)?)(\s?(–|-|—|to)\s?(\d+(?:[.,]\d+)?(?:½)?))?(\s*[/]?\s*)?(ms|s|sec|seconds?|min|minutes?|hr|hours?|°C|°F|K|nm|mm|cm|m|µm|um|angstrom|Å|kg|g|mg|µg|ug|mL|ml|L|Hz|kHz|MHz|GHz|Ω|Ohm|V|mV|A|mA|W|kW|N|Nm|psi|%|in|ft|°)\b/gi;
+
   container.querySelectorAll("ol li, .tools-list li").forEach(el => {
     el.innerHTML = el.innerHTML.replace(regex, '<span class="metric">$&</span>');
   });
