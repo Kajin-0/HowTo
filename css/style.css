@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+  padding: 1rem;
+}
+input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  margin: 0.5rem 0;
+}
