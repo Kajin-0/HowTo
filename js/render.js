@@ -5,15 +5,30 @@ fetch(`data/guides/${id}.json`)
   .then(data => {
     const container = document.getElementById('guide-container');
     const toolsHTML = `<ul class="tools-list">${data.tools.map(tool => `<li>${tool}</li>`).join('')}</ul>`;
+    const stepsHTML = `<ol>${data.steps.map(step => `<li>${step}</li>`).join('')}</ol>`;
+    const tagsHTML = data.tags.map(tag => `<span class="badge badge-gray">${tag}</span>`).join(' ');
+
     container.innerHTML = `
       <h1>${data.title}</h1>
-      <p>
+      <div class="meta">
         <span class="badge badge-blue">${data.type}</span> 
         <span class="badge badge-green">${data.difficulty}</span> 
         <span class="badge badge-gray">${data.time_minutes} min</span>
-      </p>
-      <p><strong>Tools Required:</strong></p>
+      </div>
+
+      <hr/>
+
+      <h2>Tools Required</h2>
       ${toolsHTML}
-      <ol>${data.steps.map(step => `<li>${step}</li>`).join('')}</ol>
+
+      <hr/>
+
+      <h2>Steps</h2>
+      ${stepsHTML}
+
+      <hr/>
+
+      <h2>Tags</h2>
+      <div class="tags">${tagsHTML}</div>
     `;
   });
