@@ -1,0 +1,38 @@
+{
+  "id": "change-car-oil",
+  "title": "How to Change Car Oil",
+  "type": "user",
+  "difficulty": "hard",
+  "time_minutes": 45,
+  "tools": [
+    "Oil filter wrench",
+    "Drain pan",
+    "Socket wrench",
+    "New oil",
+    "New filter",
+    "Funnel"
+  ],
+  "steps": [
+    "Warm up the engine for a few minutes, then turn it off.",
+    "Lift the car using a jack and secure it with jack stands.",
+    "Place a drain pan under the oil pan and remove the drain plug.",
+    "Let the old oil completely drain out.",
+    "Remove the old oil filter using an oil filter wrench.",
+    "Apply a bit of new oil to the gasket of the new filter and install it.",
+    "Reinsert and tighten the drain plug.",
+    "Pour in new oil using a funnel.",
+    "Start the engine and check for leaks.",
+    "Check the dipstick and top off if necessary. Dispose of used oil properly."
+  ],
+  "tags": [
+    "automotive",
+    "maintenance",
+    "car"
+  ],
+  "rating": {
+    "clarity": 4.5,
+    "accuracy": 4.6,
+    "votes": 200
+  },
+  "last_updated": "2025-05-31"
+}

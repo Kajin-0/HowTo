@@ -1,0 +1,30 @@
+{
+  "id": "fix-squeaky-door",
+  "title": "How to Fix a Squeaky Door",
+  "type": "ai_draft",
+  "difficulty": "easy",
+  "time_minutes": 10,
+  "tools": [
+    "WD-40 or silicone spray",
+    "Cloth"
+  ],
+  "steps": [
+    "Open and close the door to identify the squeaky hinge(s).",
+    "Hold a cloth underneath the hinge to catch drips.",
+    "Spray a small amount of lubricant onto the hinge pin.",
+    "Open and close the door several times to work the lubricant in.",
+    "Wipe off any excess lubricant with the cloth.",
+    "Repeat for other squeaky hinges as needed."
+  ],
+  "tags": [
+    "home",
+    "repair",
+    "door"
+  ],
+  "rating": {
+    "clarity": 4.9,
+    "accuracy": 4.7,
+    "votes": 89
+  },
+  "last_updated": "2025-05-31"
+}
