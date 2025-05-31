@@ -4,7 +4,10 @@
   "type": "ai_draft",
   "difficulty": "medium",
   "time_minutes": 20,
-  "tools": ["Phillips screwdriver", "Anti-static mat (optional)"],
+  "tools": [
+    "Phillips screwdriver",
+    "Anti-static mat (optional)"
+  ],
   "steps": [
     "Power off the laptop and unplug it.",
     "Flip the laptop over to access the battery compartment.",
@@ -15,7 +18,11 @@
     "Screw the cover back on.",
     "Boot the laptop and verify battery detection."
   ],
-  "tags": ["hardware", "repair", "laptop"],
+  "tags": [
+    "hardware",
+    "repair",
+    "laptop"
+  ],
   "rating": {
     "clarity": 4.6,
     "accuracy": 4.8,

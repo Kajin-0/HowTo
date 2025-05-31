@@ -1,0 +1,34 @@
+{
+  "id": "how-to-boil-egg",
+  "title": "How to Boil an Egg",
+  "type": "ai_draft",
+  "difficulty": "easy",
+  "time_minutes": 10,
+  "tools": [
+    "Pot",
+    "Water",
+    "Stove",
+    "Timer"
+  ],
+  "steps": [
+    "Place the eggs in a pot and cover them with cold water.",
+    "Put the pot on the stove over high heat.",
+    "Once the water reaches a boil, reduce heat to medium and set a timer:",
+    "- 6 minutes: soft-boiled",
+    "- 9 minutes: medium-boiled",
+    "- 12 minutes: hard-boiled",
+    "When time is up, transfer eggs to a bowl of ice water.",
+    "Let cool for 5 minutes, then peel and serve."
+  ],
+  "tags": [
+    "cooking",
+    "egg",
+    "kitchen"
+  ],
+  "rating": {
+    "clarity": 4.9,
+    "accuracy": 4.9,
+    "votes": 75
+  },
+  "last_updated": "2025-05-31"
+}

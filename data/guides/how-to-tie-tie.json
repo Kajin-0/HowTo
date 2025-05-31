@@ -1,0 +1,31 @@
+{
+  "id": "how-to-tie-tie",
+  "title": "How to Tie a Tie (Windsor Knot)",
+  "type": "ai_draft",
+  "difficulty": "medium",
+  "time_minutes": 5,
+  "tools": [
+    "Tie",
+    "Mirror (optional)"
+  ],
+  "steps": [
+    "Drape the tie around your neck with the wide end on the right, about 12 inches lower than the narrow end.",
+    "Cross the wide end over the narrow end.",
+    "Bring the wide end up through the neck loop from underneath and down to the left.",
+    "Pull the wide end behind the knot to the right.",
+    "Bring the wide end up again through the neck loop from the front.",
+    "Pull it down through the front loop you've just created.",
+    "Tighten the knot and center it with both hands."
+  ],
+  "tags": [
+    "style",
+    "clothing",
+    "tie"
+  ],
+  "rating": {
+    "clarity": 4.8,
+    "accuracy": 4.8,
+    "votes": 90
+  },
+  "last_updated": "2025-05-31"
+}
